@@ -62,5 +62,5 @@ I used W3Schools as a reference for the following CSS techniques:
 
 The website will be hosted using GitHub Pages.
 
-* GitHub Repository: [repository URL]
-* Live Website: [GitHub Pages URL]
+* GitHub Repository: [\[repository URL\]](https://github.com/idzi11/assignment-1-portfolio)
+* Live Website: [\[GitHub Pages URL\]](https://idzi11.github.io/assignment-1-portfolio/index.html)
