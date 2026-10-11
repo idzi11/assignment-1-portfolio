@@ -1,0 +1,41 @@
+
+@media only screen and (min-width: 481px)
+and (max-width: 960px) { /* media query for screen sizes between 481 and 960 */
+
+    main { /* main content styling */
+        width: 90%;
+        padding: 20px;
+        margin: 25px auto;
+    }
+
+    h1 { /* sets font size for h1 */
+        font-size: 32px;
+    }
+
+    h2 { /* sets font size for h2 */
+        font-size: 22px;
+    }
+
+    nav a { /* adjusts horizontal margin surrounding nav bar */
+        margin: 0px 7px;
+    }
+
+    article { /* changes size for articles */
+        width: 45%;
+        margin: 1.5%;
+        padding: 15px;
+    }
+
+    .about-photo { /* declares size for photo class */
+        width: 220px;
+    }
+
+    form { /* resizes width of contact form*/
+        width: 80%;
+    }
+
+    video { /* declares size for video */
+        width: 100%;
+        max-width: 500px;
+    }
+}

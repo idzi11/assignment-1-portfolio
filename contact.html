@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!--doctype declaration-->
+
+<html lang = "en"> <!--sets page language to english-->
+
+    <head>
+        <meta charset="UTF-8"> <!--supports a wider range of characters-->
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0"> <!--tells browser how to set up webpage on different devices-->
+
+        <title>Contact Me</title>
+
+        <!--using link element and rel/href attributes to link css files-->
+        <link rel="stylesheet" href="portfolio_style/laptop.css">
+        <link rel="stylesheet" href="portfolio_style/tablet.css">
+        <link rel="stylesheet" href="portfolio_style/mobile.css">
+    </head>
+
+    <body>
+        <header>
+            <nav><!--links to other web pages using href attribute-->
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact Me</h1> 
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tel">Cell No.</label>
+                <input type="tel" id="tel" name="tel">
+
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <footer> <!--printing my email in footer and creating copyright-->
+                <p>&copy; 2026 Idayi Chinoda. All rights reserved.</p>
+                <p>Email me at: idayi.chinoda@ontariotechu.net</p>
+        </footer>
+    </body>
+</html>

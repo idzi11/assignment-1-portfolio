@@ -1,0 +1,177 @@
+
+/* general styling for page */
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: #F0E6E9;
+    background-color: #171018;
+    line-height: 1.6; /* adds spacing between lines for readability */
+}
+
+/* styling the nav bar */
+
+header {
+    background-color: #211721;
+    padding: 20px;
+    text-align: center;
+    border : 3px solid #702D43;
+}
+
+nav a {
+    color: #D6A0B2;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+nav a:hover { /* when hovering text turns white*/
+    color: white;
+}
+
+/* main content styling */
+
+main {
+    width: 85%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+
+    /* using linear gradient for the background */
+    background: linear-gradient(to bottom, #211721, #3B1D2C);
+
+    border: 3px solid #702D43;
+}
+
+h1 {
+    color: #D6A0B2;
+    font-size: 36px;
+}
+
+h2 {
+    color: #D6A0B2;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* about page styling */
+
+.about-info { /*styling info section */
+    width: 100%;
+    text-align: left;
+}
+
+.about-photo { /*styling photo on about page */
+    width: 250px;
+    max-width: 40%;
+    height: auto;
+    float: left;
+    margin: 0px 25px 20px 0px;
+    border: 3px solid #702D43;
+    padding: 7px;
+}
+
+.about-video { /*centers video section and adds spacing */
+    clear: both;
+    padding : 20px;
+    text-align: center;
+}
+
+video {
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* styling for the projects page */
+
+article {
+    display: inline-block; /* puts the project elements next to each other */
+    vertical-align: top;
+    width: 44%;
+    margin: 2%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #702D43;
+    background-color: #211721;
+}
+
+article h2 {
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+/* contact me page styling */
+
+form {
+    width: 70%;
+    max-width: 450px;
+    margin: 25px auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    color: #D6A0B2;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 3px solid #702D43;
+    background-color: #211721;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus, textarea:focus { /* highlights form field when selected by the user */
+    outline: 1px solid #D6A0B2;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #702D43;
+    color: white;
+    border: 1px solid #D6A0B2;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8A3D56;
+}
+
+/* styling for footer */
+
+footer {
+    background: linear-gradient(to right, #171018, #3B1D2C); /* uses a horizontal linear gradient for the footer background */
+    color: #F0E6E9;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #702D43;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: #D6A0B2;
+}
+

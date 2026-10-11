@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!--doctype declaration-->
+
+<html lang = "en"> <!--sets page language to english-->
+
+    <head>
+        <meta charset="UTF-8"> <!--supports a wider range of characters-->
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0"> <!--tells browser how to set up webpage on different devices-->
+
+        <title>About Me</title>
+
+        <!--using link element and rel/href attributes to link css files-->
+        <link rel="stylesheet" href="portfolio_style/laptop.css">
+        <link rel="stylesheet" href="portfolio_style/tablet.css">
+        <link rel="stylesheet" href="portfolio_style/mobile.css">
+    </head>
+
+    <body>
+        <header>
+            <nav><!--links to other web pages using href attribute-->
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>About Me</h1> 
+
+            <div class="about-info"><!--creating class for my first wrapper-->
+                <h2>A little about me</h2>
+
+                <img src="IMG_2015.jpeg" alt="Photo of me" class="about-photo"><!--alt provides text alternative for assistive tech -->
+
+                <p>I'm currently studying Technology Management at Ontario Tech University, where I'm learning how business and technology work together. I'm interested in using technology to solve problems, improve business processes, and bring ideas to life. Outside of school, I enjoy watching anime, exploring creative projects, and trying new things. I also enjoy being involved in student clubs and finding opportunities to collaborate with others. In the future, I hope to use my skills to help businesses grow and succeed.</p>   
+            </div>
+
+            <div class="about-video"><!--creating class for my second wrapper-->
+                <h2>Get to know me</h2>
+                
+                <video width="500" controls poster="IMC_logo.png">
+                    <source src="about_me_video.mp4" type="video/mp4">
+                    <source src="about_me_video.ogv" type="video/ogg"><!--adding both ogv and mp4 formats for flexibility -->
+                    Your browser doesn't support the video tag. <!--fall back text-->
+                </video>
+            </div>
+        </main>
+
+        <footer> <!--printing my email in footer and creating copyright-->
+                <p>&copy; 2026 Idayi Chinoda. All rights reserved.</p>
+                <p>Email me at: idayi.chinoda@ontariotechu.net</p>
+        </footer>
+    </body>
+
+</html>

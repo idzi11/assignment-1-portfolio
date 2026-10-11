@@ -1,0 +1,77 @@
+@media only screen and (max-width : 480px) { /* media query for screen sizes 480 and narrower */
+
+    header { /* resizes padding around header */
+        padding: 15px 10px;
+    }
+
+    nav a { /* displays nav links next to each other */
+        display: inline-block;
+        margin: 5px 6px;
+        font-size: 14px;
+    }
+
+    main { /* main content styling */
+        width: 94%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    h1 { /* declares font size for h1 */
+        font-size: 28px;
+    }
+
+    h2 { /* declares font size for h2 */
+        font-size: 21px;
+    }
+
+    /* stack the photo above the intro and centers it */
+
+    .about-photo {
+        float: none;
+        display: block;
+        width: 220px;
+        max-width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .about-info { /* re-aligns text */
+        text-align: center;
+    }
+
+    .about-video { /* adds space above video */
+        padding-top: 10px;
+    }
+
+    video { /* declares size for video */
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* stack projects vertically */
+
+    article {
+        display: block;
+        width: 100%;
+        margin: 20px 0px;
+        padding: 15px;
+    }
+
+    /* make the contact form fit the screen */
+
+    form { /* makes form fit screen */
+        width: 100%;
+    }
+
+    input, textarea { /* declares size for input and textarea */
+        width: 100%;
+    }
+
+    footer { /* resizes padding around footer */
+        padding: 15px 10px;
+    }
+
+    footer p { /* makes font size smaller */
+        font-size: 13px;
+    }
+
+}
